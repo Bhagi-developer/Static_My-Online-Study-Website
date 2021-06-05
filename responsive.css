@@ -1,0 +1,98 @@
+@media only screen and (max-width:580px)
+{
+    .nav_button button{
+        visibility: hidden;
+    }
+}
+
+@media only screen and (max-width:660px)
+{
+
+    header{
+        background-image: linear-gradient(rgba(0, 0, 0,0.6), rgba(0, 0, 0,0.2)), url('/IMGS/study-notebooks.jpg');
+        color: white;
+    }
+    /* css for nav */
+
+    .nav_button{
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav{
+        position: static;
+        height: 150px;
+    }
+
+    /* css for header_main div */
+    .header_maindiv {
+        margin: 0 ;
+    }
+
+    .header_maindiv h1{
+        width:80%;
+        margin: auto auto ;
+        font-size: 23px;
+    }
+    .header_maindiv p{
+        width:80%;
+        margin:30px auto;
+        font-size: 15px;
+    }
+  
+
+
+    /* css for features section */
+
+
+    .features_outerdiv{
+        padding: 0;
+        margin-top: 20px;
+    }
+
+    .features_innerdiv {
+        width: 100%;
+        text-align: center;
+    }
+    .features_innerdiv img{
+        padding: 0;
+        height: 100px;
+        width: 100px;
+        margin: auto;
+    }
+    
+ 
+
+    /* css for teachers section */
+    .teachers_innerdiv{
+        width: 100vw;
+    }
+
+    .teachers_outerdiv{
+        flex-direction: column;
+    }
+    .teachers_outerdiv p{
+        text-align: center;
+    }
+
+    .teachers_innerdiv img{
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+
+    /* css for sign_up section */
+    .signup_outerdiv {
+        flex-direction: column;
+    }
+
+    .signup_innerdiv{
+        width: 100%;
+    }
+    .signup_innerdiv img{
+        display: none;
+    }
+    #signup_innerdiv2{
+        margin: 20px 0;
+    }
+   
+}

@@ -1,0 +1,268 @@
+/* css for all content */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition-property: all;
+    transition-duration: 2s;
+    scroll-behavior: smooth;
+}
+
+/* ------------------------------------------------------------------- */
+
+/* general css for p, h2  and buttons*/
+
+h2, p {
+    margin: 20px 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button {
+    cursor: pointer;
+    background: linear-gradient(40deg, rgb(216, 54, 86), white);
+    margin-top: 2rem;
+    padding: 0.8rem;
+    font-weight: bolder;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+
+button:hover {
+    background: linear-gradient(40deg, white, rgb(216, 54, 86));
+}
+
+/* ------------------------------------------------------------------- */
+
+/* css for upper head declaration */
+
+h2, h3 {
+    text-align: center;
+}
+
+/* ------------------------------------------------------------------- */
+
+/* css for header */
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url('/IMGS/special.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ------------------------------------------------------------------- */
+
+/* css for nav */
+
+.logo img {
+    height: 70px;
+    border-radius: 10px;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    height: 90px;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(56deg, rgba(80, 79, 79, 0.74), white);
+    position: sticky;
+    top: 0;
+}
+nav .menu{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+nav .menu a {
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+    font-family: 'Pacifico', cursive;
+}
+
+nav .menu a:hover {
+    text-decoration: underline;
+    color: white;
+   
+}
+
+nav button {
+    padding: 10px;
+    width: 100px;
+    background: linear-gradient(40deg, rgb(216, 54, 86), white);
+    cursor: pointer;
+}
+
+/* ------------------------------------------------------------------- */
+
+/* css for header header_maindiv */
+
+.header_maindiv {
+    margin: 8rem 0 0 3rem;
+}
+
+.header_innerdiv h1 {
+    font-family: 'Patrick Hand';
+    margin-left: 40px;
+    font-size: 2rem;
+}
+
+.header_innerdiv p {
+    margin-top: 1.5rem;
+    margin-left: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header_innerdiv button{
+    margin-left: 35px;
+}
+/* ------------------------------------------------------------------- */
+
+/* cs for features section */
+
+.features_outerdiv {
+    display: flex;
+    padding: 50px 100px 20px;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.features_innerdiv {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    text-align: center;
+}
+
+.features_innerdiv img {
+    padding: 50px;
+    padding-bottom: 0;
+}
+
+.features_innerdiv:hover {
+    border: 1.5px solid black;
+    border-radius: 5px;
+    box-shadow: 6px 6px 10px grey;
+    transform: scale(1.05);
+}
+
+.courses_button {
+    text-align: center;
+}
+
+/* ------------------------------------------------------------------- */
+
+/* css for teachers section */
+
+.for_teachers {
+    margin-top: 70px;
+}
+
+.teachers_outerdiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.teachers_innerdiv img {
+    width: 80%;
+    margin-left: 80px;
+    flex-wrap: wrap;
+}
+
+.teachers_innerdiv h2, p {
+    margin-left: 20px;
+}
+
+.teachers_button {
+    text-align: center;
+}
+
+/* ------------------------------------------------------------------- */
+
+/* css for signup section */
+
+.signup {
+    margin-top: 70px;
+}
+
+.signup_outerdiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.signup_innerdiv {
+    width: 50%;
+}
+
+.signup_innerdiv img {
+    width: 100%;
+    flex-wrap: wrap;
+}
+.signup_innerdiv h2{
+    text-align: left;
+}
+
+form input {
+    width: 70%;
+    display: block;
+    height: 40px;
+    margin: 10px auto 20px 0;
+    border: 2px solid rgb(228, 103, 124);
+    border-radius: 10px;
+}
+
+#signup_innerdiv2 {
+    margin-left: 50px;
+}
+
+.signup button {
+    margin-top: 0;
+    margin-left: 0;
+}
+
+/* ------------------------------------------------------------------- */
+
+/* css for contact section */
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#contact button {
+    background-color: #1fd497;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    margin: 0 auto 10px;
+}
+
+#contact button a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+#contact div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact div img {
+    height: 100px;
+    margin: 5px 32px;
+}
+
+footer {
+    text-align: center;
+}
+
+/* ------------------------------------------------------------------- */
