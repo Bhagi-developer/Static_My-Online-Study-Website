@@ -9,7 +9,7 @@
 {
 
     header{
-        background-image: linear-gradient(rgba(0, 0, 0,0.6), rgba(0, 0, 0,0.2)), url('/IMGS/study-notebooks.jpg');
+        background-image: linear-gradient(rgba(0, 0, 0,0.6), rgba(0, 0, 0,0.2)), url('study-notebooks.jpg');
         color: white;
     }
     /* css for nav */
