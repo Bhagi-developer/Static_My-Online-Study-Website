@@ -45,7 +45,7 @@ h2, h3 {
 /* css for header */
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url('/IMGS/special.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url('special.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
